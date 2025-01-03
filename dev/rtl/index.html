@@ -26,12 +26,12 @@
     <div class="main-wrapper main-wrapper-1">
       <div class="navbar-bg"></div>
       <nav class="navbar navbar-expand-lg main-navbar">
-        <form class="form-inline ml-auto">
-          <ul class="navbar-nav ml-3">
+        <form class="d-flex ml-auto">
+          <ul class="navbar-nav ms-3">
             <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
             <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
           </ul>
-          <div class="search-element text-right">
+          <div class="search-element text-end">
             <input class="form-control" type="search" placeholder="جستجو" aria-label="Search" data-width="250">
             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
             <div class="search-backdrop"></div>
@@ -56,19 +56,19 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-3-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-3-50.png" alt="product">
                   آیفون s9 تولید شد
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-2-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-2-50.png" alt="product">
                   چه شادی هایی که زیر پای انسانها سرکوب شدند
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-1-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-1-50.png" alt="product">
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.
                 </a>
               </div>
@@ -77,7 +77,7 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <div class="search-icon bg-danger text-white ml-3">
+                  <div class="search-icon bg-danger text-white ms-3">
                     <i class="fas fa-code"></i>
                   </div>
                   متریال ادمین پنل
@@ -85,7 +85,7 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <div class="search-icon bg-primary text-white ml-3">
+                  <div class="search-icon bg-primary text-white ms-3">
                     <i class="fas fa-laptop"></i>
                   </div>
                   ایجاد صفحه لندینگ
@@ -95,10 +95,10 @@
           </div>
         </form>
         <ul class="navbar-nav navbar-right">
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
-            <div class="dropdown-menu dropdown-list text-right dropdown-menu-left">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-bs-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+            <div class="dropdown-menu dropdown-list text-end dropdown-menu-end">
               <div class="dropdown-header">پیام ها
-                <div class="float-left">
+                <div class="float-start">
                   <a href="#">علامتگذاری همه بصورت خوانده شده</a>
                 </div>
               </div>
@@ -108,7 +108,7 @@
                     <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
-                  <div class="dropdown-item-desc text-right">
+                  <div class="dropdown-item-desc text-end">
                     <b>مهدی خانزادی</b>
                     <p>سلام داداچ!</p>
                     <div class="time">۱۰ ساعت پیش</div>
@@ -161,14 +161,14 @@
               </div>
             </div>
           </li>
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
-            <div class="dropdown-menu dropdown-list dropdown-menu-left">
-              <div class="dropdown-header text-right">نوتیفیکیشن ها
-                <div class="float-left">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-bs-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-end">
+              <div class="dropdown-header text-end">نوتیفیکیشن ها
+                <div class="float-start">
                   <a href="#"> علامتگذاری همه بصورت خوانده شده</a>
                 </div>
               </div>
-              <div class="dropdown-list-content dropdown-list-icons text-right">
+              <div class="dropdown-list-content dropdown-list-icons text-end">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-icon bg-primary text-white">
                     <i class="fas fa-code"></i>
@@ -223,10 +223,10 @@
               </div>
             </div>
           </li>
-          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+          <li class="dropdown" data-bs-auto-close="true"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle me-1">
             <div class="d-sm-none d-lg-inline-block">سلام مهدی</div></a>
-            <div class="dropdown-menu dropdown-menu-right text-right">
+            <div class="dropdown-menu dropdown-menu-end text-end">
               <div class="dropdown-title text-center">۵ دقیقه پیش لاگین کردین</div>
               <a href="features-profile.html" class="dropdown-item has-icon">
                 <span>پروفایل</span>
@@ -267,8 +267,8 @@
               </ul>
             </li>
             <li class="menu-header">امکانات بیشتر</li>
-            <li class="dropdown">
-              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>صفحه بندی</span></a>
+            <li class="dropdown" data-bs-auto-close="true">
+              <a href="#" class="nav-link has-dropdown" data-bs-toggle="dropdown"><i class="fas fa-columns"></i> <span>صفحه بندی</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="layout-default.html">حالت پیش فرض</a></li>
                 <li><a class="nav-link" href="layout-transparent.html">سایدبار بدون رنگ</a></li>
@@ -276,7 +276,7 @@
               </ul>
             </li>
             <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>صفحه خالی</span></a></li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>بوت استرپ</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="bootstrap-alert.html">آلرت</a></li>
@@ -302,7 +302,7 @@
               </ul>
             </li>
             <li class="menu-header">امکانات دیگر</li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>کامپوننت ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="components-gallery.html">گالری</a></li>
@@ -311,7 +311,7 @@
                 <li><a class="nav-link" href="components-table.html">جدول</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>فرم ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="forms-advanced-form.html">فرم پیشرفته</a></li>
@@ -319,7 +319,7 @@
                 <li><a class="nav-link" href="forms-validation.html">ولیدیشن</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>ماژول ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="modules-calendar.html">تقویم</a></li>
@@ -337,7 +337,7 @@
               </ul>
             </li>
             <li class="menu-header">صفحات</li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>ثبت نام</span></a>
               <ul class="dropdown-menu">
                 <li><a href="auth-forgot-password.html">فراموشی کلمه عبور</a></li>
@@ -346,7 +346,7 @@
                 <li><a href="auth-reset-password.html">بازیابی کلمه عبور</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>خطاها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="errors-503.html">503</a></li>
@@ -359,7 +359,7 @@
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-              <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
+              <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg w-100 btn-icon-split">
               <i class="fas fa-rocket"></i> مستندات قالب
             </a>
           </div>
@@ -372,11 +372,11 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
               <div class="card card-statistic-2">
-                <div class="card-stats text-right">
+                <div class="card-stats text-end">
                   <div class="card-stats-title">آمار سفارش -
                     <div class="dropdown d-inline">
-                      <a class="font-weight-600 dropdown-toggle" data-toggle="dropdown" href="#" id="orders-month">فروردین</a>
-                      <ul class="dropdown-menu dropdown-menu-right p-0 dropdown-menu-sm text-right">
+                      <a class="font-weight-600 dropdown-toggle" data-bs-toggle="dropdown" href="#" id="orders-month">فروردین</a>
+                      <ul class="dropdown-menu dropdown-menu-end p-0 dropdown-menu-sm text-end">
                         <li class="dropdown-title">انتخاب ماه</li>
                         <li><a href="#" class="dropdown-item">فروردین</a></li>
                         <li><a href="#" class="dropdown-item">اردیبهشت</a></li>
@@ -411,7 +411,7 @@
                 <div class="card-icon shadow-primary bg-primary">
                   <i class="fas fa-archive"></i>
                 </div>
-                <div class="card-wrap text-right">
+                <div class="card-wrap text-end">
                   <div class="card-header">
                     <h4>تعداد کل سفارش ها</h4>
                   </div>
@@ -474,8 +474,8 @@
                 <div class="card-header">
                   <h4>۵ تا از برترین کالاها</h4>
                   <div class="card-header-action dropdown">
-                    <a href="#" data-toggle="dropdown" class="btn btn-danger dropdown-toggle">ماهانه</a>
-                    <ul class="dropdown-menu dropdown-menu-sm dropdown-menu-left text-center p-0">
+                    <a href="#" data-bs-toggle="dropdown" class="btn btn-danger dropdown-toggle">ماهانه</a>
+                    <ul class="dropdown-menu dropdown-menu-sm dropdown-menu-end text-center p-0">
                       <li class="dropdown-title">انتخاب بازه زمانی</li>
                       <li><a href="#" class="dropdown-item">روز</a></li>
                       <li><a href="#" class="dropdown-item">هفته</a></li>
@@ -485,11 +485,11 @@
                   </div>
                 </div>
                 <div class="card-body" id="top-5-scroll">
-                  <ul class="list-unstyled list-unstyled-border text-right p-0">
+                  <ul class="list-unstyled list-unstyled-border text-end p-0">
                     <li class="media">
-                      <img class="ml-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
+                      <img class="ms-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
                       <div class="media-body">
-                        <div class="float-left"><div class="font-weight-600 text-muted text-small">۸۶ فروش</div></div>
+                        <div class="float-start"><div class="font-weight-600 text-muted text-small">۸۶ فروش</div></div>
                         <div class="media-title">آیفون S9 پلاس</div>
                         <div class="mt-1">
                           <div class="budget-price">
@@ -504,9 +504,9 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="ml-3 rounded" width="55" src="../assets/img/products/product-4-50.png" alt="product">
+                      <img class="ms-3 rounded" width="55" src="../assets/img/products/product-4-50.png" alt="product">
                       <div class="media-body">
-                        <div class="float-left"><div class="font-weight-600 text-muted text-small">۶۷ فروش</div></div>
+                        <div class="float-start"><div class="font-weight-600 text-muted text-small">۶۷ فروش</div></div>
                         <div class="media-title">iBook Pro 2019</div>
                         <div class="mt-1">
                           <div class="budget-price">
@@ -521,9 +521,9 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="ml-3 rounded" width="55" src="../assets/img/products/product-1-50.png" alt="product">
+                      <img class="ms-3 rounded" width="55" src="../assets/img/products/product-1-50.png" alt="product">
                       <div class="media-body">
-                        <div class="float-left"><div class="font-weight-600 text-muted text-small">۶۳ فروش</div></div>
+                        <div class="float-start"><div class="font-weight-600 text-muted text-small">۶۳ فروش</div></div>
                         <div class="media-title">هدفون Beats</div>
                         <div class="mt-1">
                           <div class="budget-price">
@@ -538,9 +538,9 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="ml-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
+                      <img class="ms-3 rounded" width="55" src="../assets/img/products/product-3-50.png" alt="product">
                       <div class="media-body">
-                        <div class="float-left"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
+                        <div class="float-start"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
                         <div class="media-title">آیفون لایت</div>
                         <div class="mt-1">
                           <div class="budget-price">
@@ -555,9 +555,9 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="ml-3 rounded" width="55" src="../assets/img/products/product-5-50.png" alt="product">
+                      <img class="ms-3 rounded" width="55" src="../assets/img/products/product-5-50.png" alt="product">
                       <div class="media-body">
-                        <div class="float-left"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
+                        <div class="float-start"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
                         <div class="media-title">دوربین عکاسی</div>
                         <div class="mt-1">
                           <div class="budget-price">
@@ -666,28 +666,28 @@
                 <div class="card-header">
                   <h4>کشورهای برتر</h4>
                 </div>
-                <div class="card-body text-right">
+                <div class="card-body text-end">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="text-title mb-2">مرداد</div>
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0 p-0">
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">اندونزی</div>
                             <div class="text-small text-muted">۳,۲۸۶ <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/my.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">مالزی</div>
                             <div class="text-small text-muted">۵,۶۴۸ <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
                         </li>
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/us.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">ایالات متحده</div>
                             <div class="text-small text-muted">۱,۵۷۶ <i class="fas fa-caret-up text-success"></i></div>
                           </div>
@@ -699,21 +699,21 @@
                       <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0 p-0">
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">اندونزی</div>
                             <div class="text-small text-muted">۱,۴۸۶ <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/ps.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">ایران</div>
                             <div class="text-small text-muted">۳,۱۸۲ <i class="fas fa-caret-up text-success"></i></div>
                           </div>
                         </li>
                         <li class="media">
                           <img class="img-fluid mt-1 img-shadow" src="../assets/modules/flag-icon-css/flags/4x3/de.svg" alt="image" width="40">
-                          <div class="media-body mr-3">
+                          <div class="media-body me-3">
                             <div class="media-title">آلمان</div>
                             <div class="text-small text-muted">۵,۶۵۴ <i class="fas fa-caret-down text-danger"></i></div>
                           </div>
@@ -735,7 +735,7 @@
                   </div>
                 </div>
                 <div class="card-body p-0">
-                  <div class="table-responsive table-invoice text-right">
+                  <div class="table-responsive table-invoice text-end">
                     <table class="table table-striped">
                       <tr>
                         <th>شماره صورتحساب</th>
@@ -796,14 +796,14 @@
             </div>
             <div class="col-md-4">
               <div class="card card-hero">
-                <div class="card-header text-right">
+                <div class="card-header text-end">
                   <div class="card-icon">
                     <i class="far fa-question-circle"></i>
                   </div>
                   <h4>۱۴</h4>
                   <div class="card-description">تیکت های ارسال شده</div>
                 </div>
-                <div class="card-body p-0 text-right">
+                <div class="card-body p-0 text-end">
                   <div class="tickets-list">
                     <a href="#" class="ticket-item">
                       <div class="ticket-title">

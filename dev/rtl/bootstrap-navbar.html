@@ -23,12 +23,12 @@
     <div class="main-wrapper main-wrapper-1">
       <div class="navbar-bg"></div>
       <nav class="navbar navbar-expand-lg main-navbar">
-        <form class="form-inline ml-auto">
-          <ul class="navbar-nav ml-3">
+        <form class="d-flex ml-auto">
+          <ul class="navbar-nav ms-3">
             <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
             <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
           </ul>
-          <div class="search-element text-right">
+          <div class="search-element text-end">
             <input class="form-control" type="search" placeholder="جستجو" aria-label="Search" data-width="250">
             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
             <div class="search-backdrop"></div>
@@ -53,19 +53,19 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-3-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-3-50.png" alt="product">
                   آیفون s9 تولید شد
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-2-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-2-50.png" alt="product">
                   چه شادی هایی که زیر پای انسانها سرکوب شدند
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="ml-3 rounded" width="30" src="../assets/img/products/product-1-50.png" alt="product">
+                  <img class="ms-3 rounded" width="30" src="../assets/img/products/product-1-50.png" alt="product">
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.
                 </a>
               </div>
@@ -74,7 +74,7 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <div class="search-icon bg-danger text-white ml-3">
+                  <div class="search-icon bg-danger text-white ms-3">
                     <i class="fas fa-code"></i>
                   </div>
                   متریال ادمین پنل
@@ -82,7 +82,7 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <div class="search-icon bg-primary text-white ml-3">
+                  <div class="search-icon bg-primary text-white ms-3">
                     <i class="fas fa-laptop"></i>
                   </div>
                   ایجاد صفحه لندینگ
@@ -92,10 +92,10 @@
           </div>
         </form>
         <ul class="navbar-nav navbar-right">
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
-            <div class="dropdown-menu dropdown-list text-right dropdown-menu-left">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-bs-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+            <div class="dropdown-menu dropdown-list text-end dropdown-menu-end">
               <div class="dropdown-header">پیام ها
-                <div class="float-left">
+                <div class="float-start">
                   <a href="#">علامتگذاری همه بصورت خوانده شده</a>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                     <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
-                  <div class="dropdown-item-desc text-right">
+                  <div class="dropdown-item-desc text-end">
                     <b>مهدی خانزادی</b>
                     <p>سلام داداچ!</p>
                     <div class="time">۱۰ ساعت پیش</div>
@@ -158,14 +158,14 @@
               </div>
             </div>
           </li>
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
-            <div class="dropdown-menu dropdown-list dropdown-menu-left">
-              <div class="dropdown-header text-right">نوتیفیکیشن ها
-                <div class="float-left">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-bs-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-end">
+              <div class="dropdown-header text-end">نوتیفیکیشن ها
+                <div class="float-start">
                   <a href="#"> علامتگذاری همه بصورت خوانده شده</a>
                 </div>
               </div>
-              <div class="dropdown-list-content dropdown-list-icons text-right">
+              <div class="dropdown-list-content dropdown-list-icons text-end">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-icon bg-primary text-white">
                     <i class="fas fa-code"></i>
@@ -220,10 +220,10 @@
               </div>
             </div>
           </li>
-          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+          <li class="dropdown" data-bs-auto-close="true"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle me-1">
             <div class="d-sm-none d-lg-inline-block">سلام مهدی</div></a>
-            <div class="dropdown-menu dropdown-menu-right text-right">
+            <div class="dropdown-menu dropdown-menu-end text-end">
               <div class="dropdown-title text-center">۵ دقیقه پیش لاگین کردین</div>
               <a href="features-profile.html" class="dropdown-item has-icon">
                 <span>پروفایل</span>
@@ -264,8 +264,8 @@
               </ul>
             </li>
             <li class="menu-header">امکانات بیشتر</li>
-            <li class="dropdown">
-              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>صفحه بندی</span></a>
+            <li class="dropdown" data-bs-auto-close="true">
+              <a href="#" class="nav-link has-dropdown" data-bs-toggle="dropdown"><i class="fas fa-columns"></i> <span>صفحه بندی</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="layout-default.html">حالت پیش فرض</a></li>
                 <li><a class="nav-link" href="layout-transparent.html">سایدبار بدون رنگ</a></li>
@@ -273,7 +273,7 @@
               </ul>
             </li>
             <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>صفحه خالی</span></a></li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>بوت استرپ</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="bootstrap-alert.html">آلرت</a></li>
@@ -299,7 +299,7 @@
               </ul>
             </li>
             <li class="menu-header">امکانات دیگر</li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>کامپوننت ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="components-gallery.html">گالری</a></li>
@@ -308,7 +308,7 @@
                 <li><a class="nav-link" href="components-table.html">جدول</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i> <span>فرم ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="forms-advanced-form.html">فرم پیشرفته</a></li>
@@ -316,7 +316,7 @@
                 <li><a class="nav-link" href="forms-validation.html">ولیدیشن</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>ماژول ها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="modules-calendar.html">تقویم</a></li>
@@ -334,7 +334,7 @@
               </ul>
             </li>
             <li class="menu-header">صفحات</li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>ثبت نام</span></a>
               <ul class="dropdown-menu">
                 <li><a href="auth-forgot-password.html">فراموشی کلمه عبور</a></li>
@@ -343,7 +343,7 @@
                 <li><a href="auth-reset-password.html">بازیابی کلمه عبور</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" data-bs-auto-close="true">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>خطاها</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="errors-503.html">503</a></li>
@@ -356,7 +356,7 @@
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-              <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
+              <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg w-100 btn-icon-split">
               <i class="fas fa-rocket"></i> مستندات قالب
             </a>
           </div>
@@ -375,7 +375,7 @@
             </div>
           </div>
 
-          <div class="section-body text-right">
+          <div class="section-body text-end">
             <h2 class="section-title">نوبار</h2>
             <p class="section-lead">اینجا میتونید نوبار رو ببینید.</p>
 
@@ -398,13 +398,13 @@
                   <div class="card-body">
                     <nav class="navbar navbar-expand-lg bg-primary">
                       <a class="navbar-brand" href="#">My App</a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                           <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
@@ -429,7 +429,7 @@
                   <div class="card-body">
                     <nav class="navbar bg-primary">
                       <a class="navbar-brand" href="#">My App</a>
-                      <form class="form-inline">
+                      <form class="d-flex">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-dark" type="submit">Search</button>
                       </form>
@@ -443,13 +443,13 @@
                   <div class="card-body">
                     <nav class="navbar navbar-expand-lg bg-primary">
                       <a class="navbar-brand" href="#">My App</a>
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mr-auto">
                           <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
